@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  background-color: hsl(0, 0%, 6%);
+  border-radius: 0;
+  border-bottom: 0.1vh solid black;
+}
+.navbar-collapse {
+  padding: 0;
+}
+.navbar-brand img {
+  margin-top: -1vh;
+  padding-right: 2vw;
+  border-right: 0.1vw solid gray;
+}
+.navbar-nav {
+  margin: auto;
+  padding-right: 3vw;
+  border-right: 0.1vw solid gray;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.nav-link {
+  color: rgb(135, 135, 135);
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+}
+.nav-link:visited {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+}
+.search {
+  margin-top: 1.5vh;
+  padding-left: 3vw;
+}
+.background {
+  background-color: rgb(188, 252, 255);
+  border-radius: 0.5vw;
+  padding: 5vw;
+}
+.darkmode {
+  background: rgb(50, 50, 50);
+  border-radius: 0.3vw;
+  border: none;
+  padding: 1vh 2vw 1.3vh 2vw;
+  color: white;
+  transition: 0.5s;
+  outline: none;
+}
+.darkmode:hover {
+  background: rgb(76, 76, 76);
+}
+.about-text {
+  margin-top: 4vh;
+}
+.txtarea {
+  padding-right: 4vw;
+}
+.copybtn {
+  background-color: rgb(0, 0, 41);
+  color: white;
+  padding: 0.1vw 0.5vw 0.8vh 0.5vw;
+  border: none;
+  border-radius: 1vw;
+  outline: none;
+  position: absolute;
+  top: 9.5vh;
+  right: 1.2vw;
+  font-size: 13px;
+  opacity: 0.9;
+}
+.navbar-toggler {
+  outline: none;
+  background-color: rgb(241, 241, 241);
+}
